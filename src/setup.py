@@ -6,8 +6,8 @@ setup(
     description = "QuantoCrypt cryptography library for Python.",
     url = "https://github.com/Quantosec/QuantoCrypt-py",
     author = "Quantosec",
-    author_email = "james@liveg.tech",
-    license = "Quantosec Open Source License",
+    author_email = "quantosec@gmail.com",
+    license = "Quantosec Open-Source Licence",
     packages = ["QuantoCrypt"],
     zip_safe = False
 )
