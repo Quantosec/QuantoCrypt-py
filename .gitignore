@@ -1,5 +1,5 @@
 *.egg
-src/build/
-src/dist/
+src/build/*
+src/dist/*
 */__pycache__/*
 src/QuantoCrypt.egg-info/*
