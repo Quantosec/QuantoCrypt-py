@@ -11,8 +11,8 @@ class MD5:
 
         Returns:
             A string in hexadecimal format representing the MD5 data.
-        """
 
+        """
         return hashlib.md5(self.data).hexdigest()
 
 class SHA256:
@@ -20,10 +20,4 @@ class SHA256:
         self.data = data.encode("utf-8")
 
     def hex(self):
-        """Returns hex representation of SHA256 data.
-
-        Returns:
-            A string in hexadecimal format representing the SHA256 data.
-        """
-
         return hashlib.sha256(self.data).hexdigest()
