@@ -1,4 +1,5 @@
 #!python3
+
 import QuantoCrypt.hash
 
 data = input("Enter some data to hash: ")

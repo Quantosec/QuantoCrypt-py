@@ -4,6 +4,13 @@ import hashlib
 
 class MD5:
     def __init__(self, data = ""):
+        """Initialises MD5 hash class.
+
+        Args:
+            data: Data to hash.
+
+        """
+
         self.data = data
     
     def raw(self):
@@ -26,6 +33,13 @@ class MD5:
 
 class SHA1:
     def __init__(self, data = ""):
+        """Initialises SHA1 hash class.
+
+        Args:
+            data: Data to hash.
+
+        """
+
         self.data = data
     
     def raw(self):
@@ -48,6 +62,13 @@ class SHA1:
 
 class SHA224:
     def __init__(self, data = ""):
+        """Initialises SHA224 hash class.
+
+        Args:
+            data: Data to hash.
+
+        """
+
         self.data = data
     
     def raw(self):
@@ -71,6 +92,13 @@ class SHA224:
 
 class SHA256:
     def __init__(self, data = ""):
+        """Initialises SHA256 hash class.
+
+        Args:
+            data: Data to hash.
+
+        """
+
         self.data = data
     
     def raw(self):
@@ -94,6 +122,13 @@ class SHA256:
 
 class SHA384:
     def __init__(self, data = ""):
+        """Initialises SHA384 hash class.
+
+        Args:
+            data: Data to hash.
+
+        """
+
         self.data = data
     
     def raw(self):
@@ -117,6 +152,13 @@ class SHA384:
 
 class SHA512:
     def __init__(self, data = ""):
+        """Initialises SHA512 hash class.
+
+        Args:
+            data: Data to hash.
+
+        """
+
         self.data = data
     
     def raw(self):

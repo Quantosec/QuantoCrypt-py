@@ -9,5 +9,8 @@ setup(
     author_email = "quantosec@gmail.com",
     license = "Quantosec Open-Source Licence",
     packages = ["QuantoCrypt"],
-    zip_safe = False
+    zip_safe = False,
+    install_requires = [
+        "pycrypto>=2.6.1"
+    ]
 )
